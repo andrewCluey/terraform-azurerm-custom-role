@@ -15,4 +15,3 @@ resource "azurerm_role_definition" "custom_role" {
   assignable_scopes = [each.value.scope]
 }
 
-variable "role_definitions" {}
