@@ -1,1 +1,2 @@
+variable "role_definitions" {}
 
