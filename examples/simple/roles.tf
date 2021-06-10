@@ -15,9 +15,9 @@ locals {
           "*/read",
           "Microsoft.Resources/subscriptions/resourceGroups/write"
         ],
-        not_actions      = [],
-        data_actions     = [],
-        not_data_actions = []
+        notActions      = [],
+        dataActions     = [],
+        notDataActions  = []
       }
       assignable_scopes = [
         data.azurerm_subscription.current.id
@@ -32,9 +32,9 @@ locals {
           "*/read",
           "Microsoft.Resources/subscriptions/resourceGroups/write"
         ],
-        not_actions      = [],
-        data_actions     = [],
-        not_data_actions = []
+        notActions      = [],
+        dataActions     = [],
+        notDataActions = []
       }
       assignable_scopes = [
         data.azurerm_subscription.current.id
