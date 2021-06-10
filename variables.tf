@@ -5,10 +5,10 @@ variable "role_definition" {
     assignable_scopes = list(string)
    
     permissions = object({
-      actions          = list(string)
-      not_actions      = list(string)
-      data_actions     = list(string)
-      not_data_actions = list(string)
+      actions        = list(string)
+      notActions     = list(string)
+      dataActions    = list(string)
+      notDataActions = list(string)
       })
     })
 }
